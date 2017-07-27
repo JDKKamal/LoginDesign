@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Login Design</string>
+
+
+    <string name="label_forgot">Forgot?</string>
+    <string name="label_create_account">Create Account</string>
+    <string name="label_or_sign_in_with">OR SIGN IN WITH</string>
+    <string name="label_or_sign_up_with">OR SIGN UP WITH</string>
+    <string name="label_already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="label_already_have_an_account">Already have an account?</string>
+    <string name="label_sign_in">Sign In</string>
+    <string name="label_register">Register</string>
+
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_city">City</string>
+    <string name="hint_state">State</string>
+    <string name="hint_zip_code">Zip Code</string>
+    <string name="hint_type">Type</string>
+
+    <string name="title_create_account">CREATE \nACCOUNT</string>
+
+    <!-- BUTTON TITLE -->
+    <string name="btn_bubble_alert_view">Bubble Alert View</string>
+    <string name="btn_login_a">Login A</string>
+    <string name="btn_login_b">Login B</string>
+
+    <!-- ALERT -->
+    <string name="err_server_error">An error occurred while processing your request. Please try again later.</string>
+    <string name="ok">OK</string>
+    <string name="text_enter_comments">Enter your comments.</string>
+    <string name="yes">Yes</string>
+    <string name="alert_cancel">Cancel</string>
+    <string name="msg_enter_your_comments">Reason should not be empty.</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_save_exit">Save and exit</string>
+    <string name="action_exit">Exit</string>
+    <string name="msg_creating_msg">You are creating a message. Choose an option below.</string>
+    <string name="msg_logout_confirmation">Logout now? Are you sure?</string>
+    <string name="no">No</string>
+
+
+    <string name="button_success">Alert success </string>
+    <string name="button_with_edit_text">Alert with edit text</string>
+    <string name="button_3_button">Alert with 3 button</string>
+    <string name="button_logout">Alert logout</string>
+
+
+</resources>

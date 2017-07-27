@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorWhite</item>
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+
+    <style name="EditTextTheme" parent="TextAppearance.AppCompat">
+        <item name="colorControlNormal">@color/colorEditFocusOn</item>
+        <item name="colorAccent">@color/colorEditFocusOn</item>
+
+        <item name="android:textColorPrimary">@color/colorEditFocusOn</item>
+        <item name="android:textColorSecondary">@color/colorEditFocusOn</item>
+        <item name="android:textColorHint">@color/colorEditFocusOff</item>
+        <item name="android:textSize">@dimen/dimen_17_sp</item>
+
+        <item name="colorControlActivated">@color/colorEditFocusOff</item>
+        <item name="colorControlHighlight">@color/colorEditFocusOff</item>
+    </style>
+
+
+</resources>

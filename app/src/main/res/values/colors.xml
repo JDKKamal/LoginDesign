@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorMultiArc">#303F9F</color>
+    <color name="green">#303F9F</color>
+    <color name="black">#000000</color>
+
+    <color name="colorBackground">#11112C</color>
+    <color name="colorToolbar">#ffffff</color>
+    <color name="colorButton">#3486F4</color>
+
+    <color name="colorEditFocusOff">#757585</color>
+    <color name="colorEditFocusOn">#FFFFFF</color>
+    <color name="colorEditHint">#757585</color>
+
+    <color name="colorSignUpLink">#2F77DB</color>
+    <color name="colorButtonBg">#2F77DB</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorSocialFacebook">#3C5A98</color>
+    <color name="colorSocialGoogle">#B2403D</color>
+
+    <color name="colorTransparent">#00000000</color>
+
+</resources>

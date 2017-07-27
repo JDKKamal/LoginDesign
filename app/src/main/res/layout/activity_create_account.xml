@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="@dimen/dimen_20_dp"
+            android:paddingBottom="@dimen/dimen_20_dp"
+            android:paddingLeft="@dimen/dimen_20_dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:text="@string/title_create_account"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/dimen_30_sp"
+                    android:textStyle="bold" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cvProfileEdit"
+                    android:layout_width="@dimen/dimen_100_dp"
+                    android:layout_height="@dimen/dimen_100_dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="2"
+                    android:src="@mipmap/ic_round" />
+            </LinearLayout>
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtFirstNameCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/hint_first_name"
+                android:inputType="text"
+                android:layout_marginTop="@dimen/dimen_30_dp"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_15_dp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorEditHint"
+                android:textSize="@dimen/dimen_17_sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtLastNameCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/hint_last_name"
+                android:layout_marginTop="@dimen/dimen_30_dp"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_15_dp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorEditHint"
+                android:textSize="@dimen/dimen_17_sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtEmailCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/hint_email"
+                android:layout_marginTop="@dimen/dimen_30_dp"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_15_dp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorEditHint"
+                android:textSize="@dimen/dimen_17_sp" />
+
+            <android.support.v7.widget.AppCompatEditText
+                android:id="@+id/edtPasswordCreateAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_30_dp"
+                android:background="@drawable/border_edittext"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:padding="@dimen/dimen_15_dp"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorEditHint"
+                android:textSize="@dimen/dimen_17_sp" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/btnCreateAccount"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="@dimen/dimen_30_dp"
+                android:background="@drawable/border_round_corner_button"
+                android:padding="@dimen/dimen_7_dp"
+                app:srcCompat="@mipmap/ic_next" />
+
+            <include layout="@layout/include_sign_social_create_account" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

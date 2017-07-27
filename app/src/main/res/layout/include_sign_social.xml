@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/dimen_50_dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/dimen_17_sp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/label_or_sign_in_with"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/dimen_25_dp"
+            android:layout_marginLeft="@dimen/dimen_30_dp"
+            app:srcCompat="@mipmap/ic_facebook"
+            android:layout_height="@dimen/dimen_25_dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="@dimen/dimen_30_dp"
+            android:layout_marginLeft="@dimen/dimen_20_dp"
+            app:srcCompat="@mipmap/ic_google"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvCreateAccountLogin"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/dimen_17_sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dimen_20_dp"
+        android:padding="@dimen/dimen_5_dp"
+        android:textColor="@color/colorSignUpLink"
+        android:text="@string/label_create_account"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
